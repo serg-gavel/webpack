@@ -24,3 +24,5 @@
       ],
     };
 ```
+>`now we can run webpack`
+`webpack`
