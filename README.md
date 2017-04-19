@@ -25,4 +25,11 @@
     };
 ```
 >`now we can run webpack`
+
 `webpack`
+
+>`to minify all and etc.`
+
+`NODE_ENV=production webpack`
+>but for Windows users need to type this:
+`webpack -p`
