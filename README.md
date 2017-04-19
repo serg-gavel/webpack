@@ -1,6 +1,7 @@
 ## Webpack tutorial
 
 `npm install -S webpack`
+
 `npm install -g webpack`
 
 `touch webpack.config.js`
@@ -24,11 +25,11 @@
       ],
     };
 ```
->`now we can run webpack`
+>now we can run webpack
 
 `webpack`
 
->`to minify all and etc.`
+>to minify all and etc.
 
 `NODE_ENV=production webpack`
 >but for Windows users need to type this:
