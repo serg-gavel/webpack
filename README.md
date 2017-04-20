@@ -39,7 +39,7 @@
 >`npm install -S lodash`
 
 #### for example
->module1 `jquery`
+>module1 is `jquery`
 >for example add this code inside of it
 ```js
     var $ = require('jquery');
@@ -48,3 +48,6 @@
 ```
 >than run webpack
 `webpack`
+>module2 is `lodash`
+>add `var peoples` and
+>for example load random data from here <https://www.mockaroo.com/>
