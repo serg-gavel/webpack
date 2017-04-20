@@ -49,5 +49,12 @@
 >than run webpack
 `webpack`
 >module2 is `lodash`
->add `var peoples` and
+>add `var people` and
 >for example load random data from here <https://www.mockaroo.com/>
+>lets `alert` and see how many female people here
+>```js
+    var femaleCount = _.filter(people, {gender: 'Female'}).length;
+    alert(femaleCount + 'females!');
+```
+>let's run webpack again
+> `webpack`

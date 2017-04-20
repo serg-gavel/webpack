@@ -1,6 +1,6 @@
 var_ = require('lodash');
 
-var peoples = [{
+var people = [{
     "id": 1,
     "first_name": "Earl",
     "last_name": "Knight",
@@ -701,3 +701,6 @@ var peoples = [{
     "gender": "Male",
     "ip_address": "142.30.239.104"
 }];
+
+var femaleCount = _.filter(people, {gender: 'Female'}).length;
+alert(femaleCount + 'females!');
