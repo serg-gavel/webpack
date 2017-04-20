@@ -53,9 +53,9 @@
 >for example load random data from here <https://www.mockaroo.com/>
 >lets `alert` and see how many female people here
 
->```js
+```js
     var femaleCount = _.filter(people, {gender: 'Female'}).length;
     alert(femaleCount + 'females!');
 ```
 >lets run webpack again
-> `webpack`
+>`webpack`
