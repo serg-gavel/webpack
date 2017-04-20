@@ -34,3 +34,17 @@
 `NODE_ENV=production webpack`
 >but for Windows users need to type this:
 `webpack -p`
+>lets just install `jquery` and `lodash`
+>`npm install -S jquery`
+>`npm install -S lodash`
+
+#### for example
+>module1 `jquery`
+>for example add this code inside of it
+```js
+    var $ = require('jquery');
+
+    $('h1').html('new text');
+```
+>than run webpack
+`webpack`

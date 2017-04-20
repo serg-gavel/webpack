@@ -1,2 +1,3 @@
-//module #1
-console.log('module1 stuff');
+var $ = require('jquery');
+
+$('h1').html('new text');
