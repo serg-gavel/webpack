@@ -4,7 +4,7 @@
 
 `npm install -g webpack`
 
-`touch webpack.config.js`
+`touch webpack.config.js`for windows `copy nul > webpack.config.js`
 >and put this code inside
 ```js
     var debug = process.env.NODE_ENV !== "production";
